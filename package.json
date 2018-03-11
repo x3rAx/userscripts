@@ -8,7 +8,7 @@
   "license": "-",
 
   "scripts": {
-      "serve": "http-server scripts -a 127.0.0.1"
+      "serve": "http-server scripts -a 127.0.0.1 -c-1"
   },
 
   "devDependencies": {
