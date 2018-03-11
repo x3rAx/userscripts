@@ -14,8 +14,46 @@ that in advance. :yum:
 
 
 
-### Contributing
+Hacking
+-------
 
-If you have some cool idea, I'd apreciate if you fork and send me a pull request
-and if it fits my needs, I will eventually merge it in.
+#### Prerequisites
 
+- Install [Violentmonkey](https://violentmonkey.github.io/) in your favorite browser
+- Install [yarn](https://yarnpkg.com/)
+
+
+
+#### Edit with your favorite editor
+
+After cloning the repo, install dependencies:
+
+    $ yarn install
+
+Then serve the files:
+
+    $ yarn serve
+
+The scripts in the `scripts` directory will now be available at 
+`localhost:8080`. To change the port run the command with the `-p` option:
+
+    $ yarn serve -p 1337
+
+to run on port `1337` for example.
+
+Next is to navigate to http://localhost:8080/ and select the userscript
+you want to edit. In the Violentmonkey "Installing script" window click the
+`Options` button in the top right and select "*Track local files before this
+window is closed*". Then press the "*Confirm installation*" button and leave
+the window open.
+
+As soon as you make changes to a script using your local editor, the script
+will be refreshed in Violentmnokey.
+
+
+
+Contributing
+------------
+
+Have some cool ide? Feel free to fork and send me a pull request. If it fits my
+needs, I will eventually merge it in. And of course I'll mention you here :wink:
