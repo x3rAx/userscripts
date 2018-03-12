@@ -2,7 +2,7 @@
 // @name Search Elsewhere
 // @author ^x3ro
 // @namespace https://x3ro.net/
-// @version 0.0
+// @version 0.1
 //
 // @description Search current query with other search engines.
 // @homepage https://github.com/x3rAx/userscripts
