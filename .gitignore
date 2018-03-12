@@ -1,5 +1,7 @@
 # Editor files
 .*.swp
+.idea/*
+!.idea/codeStyles
 
 # yarn / npm modules
 /node_modules/*
