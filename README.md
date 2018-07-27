@@ -50,6 +50,9 @@ you want to edit. In the Violentmonkey "Installing script" window click the
 window is closed*". Then press the "*Confirm installation*" button and leave
 the window open.
 
+Make sure you are on `localhost`, not `127.0.0.1`. Violentmonkey will poll for
+script changes only when on `localhost`.
+
 As soon as you make changes to a script using your local editor, the script
 will be refreshed in Violentmnokey.
 
