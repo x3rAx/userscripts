@@ -35,13 +35,16 @@ Then serve the files:
     $ npm run serve
 
 The scripts in the `scripts` directory will now be available at 
-`localhost:8080`. To change the port run the command with the `-p` option:
+`localhost:1337`.
 
-    $ npm run serve -p 1337
+If you need to change the port, you can do so using the environment variable
+`$USERSCRIPTS_PORT`:
 
-to run on port `1337` for example.
+    $ USERSCRIPTS_PORT=1337 npm run serve
 
-Next is to navigate to http://localhost:8080/ and select the userscript
+Change the `1337` to anything you like.
+
+Next is to navigate to http://localhost:1337/ and select the userscript
 you want to edit. In the Violentmonkey "Installing script" window click the
 `Options` button in the top right and select "*Track local files before this
 window is closed*". Then press the "*Confirm installation*" button and leave
