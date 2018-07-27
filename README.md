@@ -6,7 +6,7 @@ repository is to have a place where I can store my scripts while also having
 them syncted across multiple browsers / machines.
 
 You are free to use any of the scripts here but **you do this at your own
-responsibility**
+risk**.
 
 Even though I'm a fan of clean code, some scripts here might be super ugly
 because sometimes I just want to have something right now. I apologize for
