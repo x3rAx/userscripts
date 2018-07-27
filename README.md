@@ -20,7 +20,7 @@ Hacking
 #### Prerequisites
 
 - Install [Violentmonkey](https://violentmonkey.github.io/) in your favorite browser
-- Install [yarn](https://yarnpkg.com/)
+- Install [Node.js]()
 
 
 
@@ -28,16 +28,16 @@ Hacking
 
 After cloning the repo, install dependencies:
 
-    $ yarn install
+    $ npm install
 
 Then serve the files:
 
-    $ yarn serve
+    $ npm run serve
 
 The scripts in the `scripts` directory will now be available at 
 `localhost:8080`. To change the port run the command with the `-p` option:
 
-    $ yarn serve -p 1337
+    $ npm run serve -p 1337
 
 to run on port `1337` for example.
 
