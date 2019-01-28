@@ -6,12 +6,10 @@
     "repository": "https://github.com/x3rAx/userscripts",
     "author": "Björn Richter <x3ro1989@gmail.com>",
     "license": "-",
-
     "scripts": {
-        "serve": "http-server scripts -a localhost -c-1 -p ${USERSCRIPTS_PORT:-1337}"
+        "start": "http-server scripts -a localhost -c-1 -p ${USERSCRIPTS_PORT:-1337}"
     },
-
     "devDependencies": {
-      "http-server": "^0.11.1"
+        "http-server": "^0.11.1"
     }
 }

@@ -24,7 +24,7 @@ Hacking
 
 
 
-#### Edit with your favorite editor
+#### Edit with your favorite editor <sup>([more info](https://violentmonkey.github.io/2017/03/14/How-to-edit-scripts-with-your-favorite-editor/))</sup>
 
 After cloning the repo, install dependencies:
 
@@ -32,7 +32,7 @@ After cloning the repo, install dependencies:
 
 Then serve the files:
 
-    $ npm run serve
+    $ npm start
 
 The scripts in the `scripts` directory will now be available at 
 `localhost:1337`.
