@@ -7,7 +7,7 @@
 // @description Search current query with other search engines.
 // @homepage https://github.com/x3rAx/userscripts
 // @supportURL https://github.com/x3rAx/userscripts/issues
-// @downloadURL https://rawgit.com/x3rAx/userscripts/master/scripts/login2me-clipboard.user.js
+// @downloadURL https://cdn.jsdelivr.net/gh/x3rAx/userscripts@master/scripts/login2me-clipboard.user.js
 //
 // @include /^http:\/\/login2.me\/.*/
 // @grant none

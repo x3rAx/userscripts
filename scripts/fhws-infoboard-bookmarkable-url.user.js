@@ -8,7 +8,7 @@
 //
 // @homepage    https://github.com/x3rAx/userscripts
 // @supportURL  https://github.com/x3rAx/userscripts/issues
-// @downloadURL https://rawgit.com/x3rAx/userscripts/master/scripts/fhws-infoboard-bookmarkable-url.user.js
+// @downloadURL https://cdn.jsdelivr.net/gh/x3rAx/userscripts@master/scripts/fhws-infoboard-bookmarkable-url.user.js
 //
 // @match       https://infoboard.fhws.de/
 // @grant       none
