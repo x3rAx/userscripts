@@ -2,7 +2,7 @@
 // @name        Bookmarkable FHWS Infoboard URL
 // @author      ^x3ro
 // @namespace   https://x3ro.net/
-// @version     1.0
+// @version     1.1
 //
 // @description Update URL of FHWS Infoboard when updating the search filter so it can be bookmarked or shared.
 //
@@ -42,7 +42,9 @@ function makeCoursesUrlValue(courses) {
     if (courses.length === 0) {
         return '-'
     }
-    return courses.join(COURSES_URL_SEPARATOR)
+    return courses
+        .map((course) => encodeURIComponent(course))
+        .join(COURSES_URL_SEPARATOR)
 }
 
 
