@@ -2,7 +2,7 @@
 // @name        Advent of Code - Leaderboard Favorite
 // @author      ^x3ro
 // @namespace   https://x3ro.net/
-// @version     1.0
+// @version     1.1
 //
 // @description Add a quick link to your favorite private leaderboard
 //
@@ -83,9 +83,11 @@ const createLink = (text, href, style = {}) => {
 }
 
 document
-    .querySelectorAll('main a[href*="/leaderboard/private/view/"]')
-    .forEach(addLeaderboardFavToggle)
-
-document
     .querySelectorAll('a[href$="/leaderboard"]')
     .forEach(addLeaderboardLinks)
+
+if (location.href.match(/^https:\/\/adventofcode\.com\/\d+\/leaderboard\/private$/)) {
+    document
+        .querySelectorAll('main a[href*="/leaderboard/private/view/"]')
+        .forEach(addLeaderboardFavToggle)
+}
