@@ -10,6 +10,6 @@
         "start": "http-server scripts -a localhost -c-1 -p ${USERSCRIPTS_PORT:-1337}"
     },
     "devDependencies": {
-        "http-server": "^0.11.1"
+        "http-server": "^14.1.1"
     }
 }
